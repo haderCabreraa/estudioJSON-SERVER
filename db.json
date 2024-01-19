@@ -1,0 +1,58 @@
+{
+    "campers": [
+        {
+            "id":"1",
+            "nombre":"Hader Cabrera",
+            "modulo":2,
+            "habilidades":"Rapido aprendizaje",
+            "tecnologias": [
+                "Html",
+                "Css",
+                "Java script"
+            ],
+            "categoryId": 1
+        },
+        {
+            "id":2,
+            "nombre":"Paola Perez",
+
+            "habilidades":"Cauchita",
+            "tecnologias": [
+                "Html",
+                "sQL",
+                "Java script",
+                "JAVA"
+            ],
+            "categoryId": 2
+        },
+        {
+            "id":"3",
+            "nombre":"Diana Garcia",
+            "modulo":3,
+            "habilidades":"Comprometida",
+            "tecnologias": [
+                "sQL",
+                "JAVA"
+            ],
+            "categoryId": 2
+        }
+    ],
+    "trainers": [
+        {
+           "id":"1",
+           "nombre":"Carlos Faster",
+           "edad":"38",
+           "campers":[
+            "Un solo camper"
+           ] 
+        },
+        {
+            "id":"2",
+            "nombre":"Reinaldo Americo",
+            "edad":"27",
+            "campers":[
+             "Analizando dos campers"
+            ] 
+         }
+    ]   
+  }
