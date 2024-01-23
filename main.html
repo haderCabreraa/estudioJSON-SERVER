@@ -8,10 +8,45 @@
         body{
             width: 50%;
             margin: 0 auto;
+            text-align: center;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+        }
+        .ocultar{
+            display: none;
         }
     </style>
 </head>
 <body>
-    <a href="html/campers.html">CAMPERS</a>
+    <div id="container">
+        <div id="inicioSesion">
+            <h1>CF ACME</h1>
+            <h2>Iniciar sesion:</h2>
+            <br>
+            <form action="">
+                <label for="id">Cedula:</label>
+                <input type="text" name="id" id="id">
+                <br>
+                <br>
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" id="pass">
+                <br>
+                <br>
+                <button value="Buscar">BUSCAR</button>
+            </form>
+        </div>
+        <div id="trabajador" class="ocultar">
+            <h1>GESTIONES DEL TRABAJADOR</h1>
+            <a href="html/trabajador.html"><button>GESTIONAR CLIENTE</button></a>
+
+        </div>
+        <div id="usuario" class="ocultar">
+            <h1>BIENBENIDO USUARIO</h1>
+        </div>
+    </div>
+    <script src="/escuchar/signin.js" type="module"></script>
+    <script src="/escuchar/addCompra.js" type="module"></script>
 </body>
 </html>
